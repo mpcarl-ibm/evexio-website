@@ -21,7 +21,7 @@ Clone the evexio-website repository using [git][git]:
 
 ```
 git clone https://github.com/Evexio/evexio-website.git
-cd angular-seed
+cd evexio-website
 ```
 
 ### Install Dependencies
