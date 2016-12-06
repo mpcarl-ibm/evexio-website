@@ -4,7 +4,7 @@ angular.module('evexio.home', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/home', {
-    templateUrl: 'home/home.html',
+    templateUrl: 'src/home/home.html',
     controller: 'HomeCtrl'
   });
 }])

@@ -4,7 +4,7 @@ angular.module('evexio.post', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/post', {
-    templateUrl: 'posts/post.html',
+    templateUrl: 'src/posts/post.html',
     controller: 'PostCtrl'
   });
 }])
