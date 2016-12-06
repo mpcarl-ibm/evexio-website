@@ -4,7 +4,7 @@ angular.module('evexio.blog', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/blog', {
-    templateUrl: 'blog/blog.html',
+    templateUrl: 'src/blog/blog.html',
     controller: 'BlogCtrl'
   });
 }])

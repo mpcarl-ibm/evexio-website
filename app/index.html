@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div id="header">
+    <div id="header" style="transition: max-height 284ms; position: relative">
         <div id="hamburger">
             <a href="javascript:void(0);" onclick="openMenu()" title="Menu">☰</a>
         </div>
@@ -23,19 +23,19 @@
             <a href="#!/home"><img src="images/logo.png"></a>
         </div>
         <ul id="navigation">
-            <li ng-class="{ active: isActive('/home') }">
+            <li ng-class="{ active: isActive('/src/home') }">
                 <a href="#!/home">Home</a>
             </li>
-            <li ng-class="{ active: isActive('/work') }">
+            <li ng-class="{ active: isActive('/src/work') }">
                 <a href="#!/work">What We Do</a>
             </li>
-            <li ng-class="{ active: isActive('/about') }">
+            <li ng-class="{ active: isActive('/src/about') }">
                 <a href="#!/about">Team</a>
             </li>
-            <li ng-class="{ active: isActive('/blog') || isActive('/post') }">
+            <li ng-class="{ active: isActive('/src/blog') || isActive('/src/post') }">
                 <a href="#!/blog">Blog</a>
             </li>
-            <li ng-class="{ active: isActive('/contact') }">
+            <li ng-class="{ active: isActive('/src/contact') }">
                 <a href="#!/contact">Contact</a>
             </li>
         </ul>
@@ -50,12 +50,12 @@
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
-  <script src="home/home.js"></script>
-  <script src="work/work.js"></script>
-  <script src="about/about.js"></script>
-  <script src="blog/blog.js"></script>
-  <script src="contact/contact.js"></script>
-  <script src="posts/post.js"></script>
+  <script src="src/home/home.js"></script>
+  <script src="src/work/work.js"></script>
+  <script src="src/about/about.js"></script>
+  <script src="src/blog/blog.js"></script>
+  <script src="src/contact/contact.js"></script>
+  <script src="src/posts/post.js"></script>
   
   <div id="footer">
       <div class="clearfix">
@@ -70,6 +70,5 @@
           </p>
       </div>
   </div>
-  
 </body>
 </html>

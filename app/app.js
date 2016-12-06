@@ -13,7 +13,7 @@ angular.module('evexio', [
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/home'});
+  $routeProvider.otherwise({redirectTo: '/src/home'});
 }])
 .controller('EvexioCtrl', ['$scope', '$location', function($scope, $location) {
                            
